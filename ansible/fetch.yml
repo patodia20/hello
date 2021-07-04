@@ -1,0 +1,7 @@
+---
+hosts: remote
+tasks:
+- name: 
+  ansible.builtin.fetch:
+    src: /path/on/remote
+    dest: /path/on/local
